@@ -1,0 +1,32 @@
+{
+  "name": "advaya-s3-upload",
+  "version": "1.0.0",
+  "description": "Advaya s3 upload",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Utkarsh85/advaya-s3-upload.git"
+  },
+  "keywords": [
+    "advaya",
+    "s3",
+    "upload",
+    "crop",
+    "gm"
+  ],
+  "author": "Utkarsh85",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Utkarsh85/advaya-s3-upload/issues"
+  },
+  "homepage": "https://github.com/Utkarsh85/advaya-s3-upload#readme",
+  "dependencies": {
+    "aws-sdk": "^2.6.3",
+    "gm": "^1.23.0",
+    "mime-types": "^2.1.11",
+    "node-uuid": "^1.4.7"
+  }
+}

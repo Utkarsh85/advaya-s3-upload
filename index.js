@@ -1,6 +1,7 @@
 var fileS3 = require('./lib/fileS3');
 var imageS3 = require('./lib/imageS3');
 var imageCropS3 = require('./lib/imageCropS3');
+var imageResizeS3 = require('./lib/imageResizeS3');
 
 module.exports={
 	file: fileS3,

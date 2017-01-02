@@ -5,5 +5,6 @@ var imageCropS3 = require('./lib/imageCropS3');
 module.exports={
 	file: fileS3,
 	image: imageS3,
-	imageCrop: imageCropS3
+	imageCrop: imageCropS3,
+	imageResize: imageResizeS3,
 }
